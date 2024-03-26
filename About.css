@@ -1,0 +1,32 @@
+body{
+    background-image: url(zidane.jpg);
+}
+#about{
+    padding-left: 500px;
+    padding-right: 600px;
+    color: white;
+    margin-top: 200px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 40%;
+}
+.about-col-1 img{
+    width: 355px;
+    border-radius: 600px;
+    height: 355px;
+    border: 2px solid brown;
+}
+.about-col-2{
+    flex-basis: 50%;
+    letter-spacing: 1px;
+}
+.sub-title{
+    font-weight: 600px;
+    color: blanchedalmond;
+    
+}

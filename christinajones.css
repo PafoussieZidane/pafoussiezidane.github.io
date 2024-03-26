@@ -1,0 +1,113 @@
+.menu{
+    margin-left: 700px;
+    margin-top: -60px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: black;
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ height: 5px;
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+}
+.cristinajones{
+    border: 1px solid;
+    width: 160px;
+    height: 20px;
+    margin-left: 40px;
+    letter-spacing: -3px;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 8px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.row{
+   display: flex;
+   justify-content: space-between;
+    flex-direction: row;
+}
+.header-2{
+    flex-basis: 80%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.header-1{
+    flex-basis: 60%;
+}
+.header-1 img{
+    width: 600px;
+    border-radius: 15px;
+    height: 360px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+button{
+    background-color: aqua;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    border: none;
+    height: 40px;
+}
+.title{
+    border: 1px solid;
+    background-color: aqua;
+    color: white;
+    width: 300px;
+    height: 20px;
+    padding-bottom: 40px;
+}
+.welcome{
+    margin-top: 120px;
+}
+.explore{
+    margin-left: 515px;
+    margin-top: 200px;
+}
+.sub{
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    padding-top: 30px;
+}  
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 490px;
+    
+}
+img{
+    height: 150px;
+    width: 200px;
+}
+.zi{
+    margin-top: 70px;
+}
+.categories{
+    margin-left: 515px;
+
+}
+.tub{
+border: 1px solid;
+height: 200px;
+width: 200px;
+border-color: aquamarine;
+background-color: aquamarine;
+margin: 1px;
+padding: 5px;
+background-image: url(./pic5.jpg);
+margin-left: 20px;
+}

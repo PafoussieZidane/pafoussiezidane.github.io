@@ -1,0 +1,25 @@
+body{
+    background-image: url(zidane.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "blackchancery";
+    height: 200vh;
+    background-size: cover;
+}
+.ti{
+    margin-top: 400px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-left: 400px;
+    border: 2px solid;
+    height: 300px;
+    width: 250px;
+    padding-left: 100px;
+    border-radius: 10px;
+    color: white;
+    margin: 70px;
+}
+img{
+    height: 50px;
+    border-radius: 20px;
+}

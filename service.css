@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+    background-image:url(zidane.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    gap: 10px;
+    margin-top: 50px;
+}
+.sub{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    border-radius: 30px;
+}
+img{
+    height: 50px;
+}
+h1{
+    margin-top: 200px;
+    margin-left: 900px;
+    color: whitesmoke;
+}
+.sub:hover{
+    background: red;
+    transform: translateY(-10px);
+}
+.sub{
+    transition: transform 0.5s;
+}

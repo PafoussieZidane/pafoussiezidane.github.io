@@ -1,0 +1,18 @@
+body{
+    background-color: aliceblue;
+    background-position: center;
+}
+.h1{
+    height: 200vh;
+    position: absolute;
+    top: 20%;
+    letter-spacing: 2px;
+}
+.h2{
+ color: blueviolet;
+ letter-spacing: 2px;
+ top: 25%;
+}
+.section{
+    
+}
