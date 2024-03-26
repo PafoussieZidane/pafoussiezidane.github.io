@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s linear;
+}
+@font-face{
+    font-family:"blackchancery";
+    src: url("blackchancery.ttf");
+}
+body{
+    height: 200vh;
+    background-image: url(zidane.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    font-family: "blackchancery";
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70px;
+    line-height: 70px;
+}
+.Zidane{
+    color: black;
+    margin-left: 100px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.menu{
+    margin-right: 60px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #7a7a7a;
+    font-size: 24px;
+}
+.active{
+    color: red;
+}
+li a:hover{
+    color: red;
+}
+.margin-r{
+    margin-right: 0;
+}
+.search{
+    border: 1.5px solid black;
+    border-radius: 20px;
+    height: 40px;
+    margin-right: 20px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+input[type=text]{
+    padding-left: 15px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 19px;
+    background: transparent;
+    margin-top: -2px;
+    letter-spacing: 1px;
+    font-family: "blackchancery";
+}
+.btn-search{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+img{
+    height: 37px;
+    width: 40px;
+    border-radius: 20px;
+}
+.container{
+    height: 100vh;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+.container img{
+    border: 2px solid brown;
+    border-radius: 20px;
+    background: transparent;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.container img:hover{
+    transform: translateY(-10px);
+}
+.h2{
+   position: absolute;
+   top: 10%;
+   right: 40%;
+   font-size: 120px;
+   letter-spacing: 5px;
+   text-transform: lowercase;
+   color: blue; 
+}
+h3{
+    margin-top: 50px;
+    right: 50%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 400px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 100;
+    margin-left: 750px;
+}
+.signup{
+    top: 10%;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 25px;
+    font-family: "blackchancery";
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.signup{
+    justify-content: center;
+}
+.signup:hover{
+    background-color: red;
+    color: black;
+    transform: translateY(-5px);
+}
+h1{
+    color: brown;
+    letter-spacing: 5px;
+}
+.zizou{
+    display: inline-block;
+    background: black;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    color: white;
+}
+.zizou:hover{
+    background: black;
+    transform: translateX(-10px);
+}
+
+
+
